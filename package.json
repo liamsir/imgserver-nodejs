@@ -1,0 +1,18 @@
+{
+  "name": "img-server",
+  "version": "1.0.0",
+  "description": "Helps with url signing.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "img",
+    "server",
+    "image-server",
+    "sign",
+    "url"
+  ],
+  "author": "Ismajl Ramadani",
+  "license": "MIT"
+}
