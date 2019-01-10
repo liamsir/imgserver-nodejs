@@ -3,7 +3,7 @@ const c = require('./config')
 
 module.exports = (function(){
 
-  function ImgServer(config){
+  function ImgServer(config) {
     this.config = {c, ...config};
   }
 
