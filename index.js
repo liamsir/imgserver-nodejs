@@ -4,7 +4,7 @@ const c = require('./config')
 module.exports = (function(){
 
   function ImgServer(config) {
-    this.config = {c, ...config};
+    this.config = {...c, ...config};
   }
 
   ImgServer.prototype.getSignedURL = function (objectInfo) {

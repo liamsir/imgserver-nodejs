@@ -1,8 +1,19 @@
 # imgserver-nodejs
 
+## Install
+
+```
+npm i falcon-img-server --save
+```
+
 ## Usage
+
 ```javascript
-var imgServer = new ImgServer({
+const ImgServer = require('falcon-img-server')
+```
+
+```javascript
+const imgServer = new ImgServer({
     Username: "username",
     SecretKey: "secret_key"
 });

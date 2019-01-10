@@ -1,8 +1,12 @@
 {
-  "name": "img-server",
-  "version": "1.0.0",
+  "name": "falcon-img-server",
+  "version": "1.0.1",
   "description": "Helps with url signing.",
   "main": "index.js",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/liamsir/imgserver-nodejs"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
